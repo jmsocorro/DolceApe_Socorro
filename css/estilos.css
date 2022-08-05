@@ -24,7 +24,6 @@ fuscia #8607F5
 */
 
 /* BARRA DE NAVEGACION */
-/* vista celulares */
 header {
     position: fixed;
     display: block;
@@ -81,122 +80,8 @@ header .navbar .menu .menu_item a {
 header .navbar .menu .menu_item a:hover {
     background: #F5CC14;
 }
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    header {
-        height: 90px;
-    }
-    header .navbar .isologo {
-        height: 70px;
-        width: 270px;
-    }
-    header .navbar .isologo .iso {
-        position: absolute;
-        width: 70px;
-        height: 70px;
-    }
-    header .navbar .isologo .logo {
-        font-family: "Dancing Script";
-        font-size: 50px;
-        line-height: 100%;
-        color: #681EA8;
-        padding: 10px 10px 10px 80px;
-    }
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    header {
-        height: 100px;
-    }
-    header .navbar .isologo {
-        height: 80px;
-        width: 310px;
-    }
-    header .navbar .isologo .iso {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-    }
-    header .navbar .isologo .logo {
-        font-family: "Dancing Script";
-        font-size: 60px;
-        line-height: 100%;
-        color: #681EA8;
-        padding: 10px 10px 10px 90px;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    header {
-        height: 110px;
-        background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));;
-    }
-    header .navbar .isologo {
-        height: 90px;
-        width: 350px;
-    }
-    header .navbar .isologo .iso {
-        position: absolute;
-        width: 90px;
-        height: 90px;
-    }
-    header .navbar .isologo .logo {
-        font-family: "Dancing Script";
-        font-size: 50px;
-        line-height: 100%;
-        color: #681EA8;
-        padding: 10px 10px 10px 80px;
-    }
-    header .navbar .isologo .logo {
-        font-family: "Dancing Script";
-        font-size: 70px;
-        line-height: 100%;
-        color: #681EA8;
-        padding: 10px 10px 10px 100px;
-    }
-    header .navbar .desplegar_menu {
-        display: none;
-    }
-    header .navbar .menu {
-        display: flex;
-        width: calc(100% - 350px);
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-    header {
-        height: 120px;
-        background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));;
-    }
-    header .navbar .isologo {
-        height: 100px;
-        width: 400px;
-    }
-    header .navbar .isologo .iso {
-        position: absolute;
-        width: 100px;
-        height: 100px;
-    }
-    header .navbar .isologo .logo {
-        font-family: "Dancing Script";
-        font-size: 80px;
-        line-height: 100%;
-        color: #681EA8;
-        padding: 10px 10px 10px 110px;
-    }
-    header .navbar .desplegar_menu {
-        display: none;
-    }
-     header .navbar .menu {
-        display: flex;
-        width: calc(100% - 400px);
-    }
-}
-
-
-
+/* BARRA DE NAVEGACION */
 /* FOOTER */
-/* vista celulares */
 footer {
     position: relative;
     padding: 20px;
@@ -271,65 +156,8 @@ footer .navbarLegales ul li a {
     color: #FFF;
     padding: 10px;
 }
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    footer .isologo {
-        height: 50px;
-        width: 220px;
-    }
-    footer .isologo .iso {
-        width: 50px;
-        height: 50px;
-    }
-    footer .isologo .logo {
-        font-size: 2.5rem;
-    }
-    footer .navbarRedes {
-        width: calc((100% - 220px)/2);
-        text-align: center; 
-        margin-top: 0px;  
-    }    
-    footer .navbarLegales {
-        width: calc((100% - 220px)/2);
-        text-align: center; 
-        margin-top: 0px;  
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-    footer .isologo {
-        height: 60px;
-        width: 280px;
-    }
-    footer .isologo .iso {
-        width: 60px;
-        height: 60px;
-    }
-    footer .isologo .logo {
-        font-size: 3.125rem;
-    }
-    footer .navbarRedes {
-        width: calc((100% - 280px)/2);
-        text-align: center; 
-        margin-top: 0px;  
-    }    
-    footer .navbarLegales {
-        width: calc((100% - 280px)/2);
-        text-align: center; 
-        margin-top: 0px;  
-    }
-}
-
-
-
+/* FOOTER */
 /* MAIN */
-/* vista celulares */
 main {
     position: relative;
     display: block;
@@ -337,36 +165,8 @@ main {
     margin-top: 80px;
     overflow: hidden;
 }
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    main {
-        margin-top: 90px;
-    }
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    main {
-        margin-top: 100px;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    main {
-        margin-top: 0px;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-    main {
-        margin-top: 0px;
-    }
-}
-
-
-
-
+/* MAIN */
 /* PROMOS */
-/* vista celulares */
 .promos {
     position: relative;
     display: block;
@@ -462,38 +262,8 @@ main {
     font-size: 1rem;
     font-weight: normal;
 }
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .promos {
-        height: calc(100vh - 90px);
-    }
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .promos {
-        height: calc(100vh - 100px);
-        min-height: 400px;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .promos {
-        height: 50vh;
-        min-height: 400px;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-    .promos {
-        height: 50vh;
-        min-height: 400px;
-    }
-}
-
-
-
+/* PROMOS */
 /* Seccion tortas HOME */
-/* vista celulares */
 .tortas {
     position: relative;
     width: 100%;
@@ -575,143 +345,7 @@ main {
     background: rgba(255, 255, 255, .8);
     opacity: 1;
 }
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .tortas .tortasContenedor {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 200px);
-    }
-    .tortas .tortasContenedor .torta4 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 3;
-    }
-    .tortas .tortasContenedor .torta2 {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-    }
-    .tortas .tortasContenedor .torta3 {
-        grid-column: 3 / 4;
-        grid-row: 2 / 4;
-    }
-    .tortas .tortasContenedor .torta1 {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-    }
-    .tortas .tortasContenedor .torta5 {
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-        display: none;
-    }
-    .tortas .tortasContenedor .torta6 {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-    }
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .tortas .titulo {
-        font-size: 2.625rem;
-    }
-    .tortas .tortasContenedor {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 250px);
-    }
-    .tortas .tortasContenedor .torta4 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 3;
-    }
-    .tortas .tortasContenedor .torta2 {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-    }
-    .tortas .tortasContenedor .torta3 {
-        grid-column: 3 / 4;
-        grid-row: 2 / 4;
-    }
-    .tortas .tortasContenedor .torta1 {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-    }
-    .tortas .tortasContenedor .torta5 {
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-        display: none;
-    }
-    .tortas .tortasContenedor .torta6 {
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .tortas .titulo {
-        font-size: 3rem;
-    }
-    .tortas .tortasContenedor {
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(1, 200px);
-    }
-    .tortas .tortasContenedor .torta4 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta2 {
-        grid-column: 3 / 4;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta3 {
-        grid-column: 4 / 6;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta1 {
-        grid-column: 6 / 7;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta5 {
-        grid-column: 8 / 9;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta6 {
-        grid-column: 7 / 8;
-        grid-row: 1 / 1;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-    .tortas .titulo {
-        font-size: 3.375rem;
-    }
-    .tortas .tortasContenedor {
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(1, 250px);
-    }
-    .tortas .tortasContenedor .torta4 {
-        grid-column: 1 / 3;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta2 {
-        grid-column: 3 / 4;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta3 {
-        grid-column: 4 / 6;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta1 {
-        grid-column: 6 / 7;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta5 {
-        grid-column: 8 / 9;
-        grid-row: 1 / 1;
-    }
-    .tortas .tortasContenedor .torta6 {
-        grid-column: 7 / 8;
-        grid-row: 1 / 1;
-    }
-}
-
-
+/* Seccion tortas HOME */
 /* Seccion tortas TORTAS */
 .paginaTortas .tortas .titulo {
     font-size: 2.5rem;
@@ -794,8 +428,351 @@ main {
     grid-column: 2 / 3;
     grid-row: 8 / 9;
 }
+/* Seccion tortas TORTAS */
+/* Seccion conoceme HOME */
+.conoceme {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #F5CC14;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.conoceme .conocemeTextos {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    order: 1;
+}
+.conoceme .conocemeTextos .volanta {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.conoceme .conocemeTextos .titulo {
+        width: 100%;
+        font-size: 2.25rem;
+        font-family: "Dancing Script";
+        text-align: center;
+        margin-bottom: 20px;
+}
+.conoceme .conocemeTextos .texto {
+    margin-bottom: 20px;
+}
+.conoceme .conocemeTextos .botonVer {
+    width: 100%;
+    padding: 5px;
+    color: #FFF;
+}
+.conoceme .conocemeTextos .botonVer:hover {
+    color: #681EA8;
+}
+.conoceme .conocemeFotoCont {
+    position: relative;
+    width: 100%;
+    padding-bottom: 60%;
+    align-self: stretch;
+    order: 2;
+}
+.conoceme .conocemeFotoCont .conocemeFoto {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Seccion conoceme HOME */
+/* Seccion conoceme CONOCEME */
+.paginaConoceme .conoceme {
+    background: none;
+}
+.paginaConoceme .conoceme .conocemeContenedor {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.paginaConoceme .conoceme .conocemeContenedor.espejado .conocemeTextos {
+    order: 1;
+}
+.paginaConoceme .conoceme .conocemeContenedor.espejado .conocemeFotoCont {
+    order: 2;
+}
+.paginaConoceme .conoceme .titulo {
+    font-family: "Dancing Script";
+    font-size: 2.5rem;
+    text-align: center;
+}
+.paginaConoceme .conoceme .subtitulo {
+    font-family: "Dancing Script";
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+.paginaConoceme .conoceme .volver {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 5px;
+    color: #681EA8;
+    transition: opacity .5s;
+    z-index: 1;
+}
+.paginaConoceme .conoceme .volanta {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.paginaConoceme .conoceme .volver:hover {
+    opacity: .5;
+}
+/* Seccion conoceme CONOCEME */
+/* Seccion alegrias HOME */
+.alegrias {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+}
+.alegrias .titulo {
+    width: 100%;
+    padding: 10px;
+    font-size: 2.25rem;
+    font-family: "Dancing Script";
+    text-align: center;
+    margin-top: 30px;
+}
+.alegrias .alegriasContenedor {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    padding: 5px;
+}
+.alegrias .alegriasContenedor .alegria {
+    position: relative;
+    width: calc(100% /2);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.alegrias .alegriasContenedor .alegria.alegria5 {
+    display: none;
+}
+.alegrias .alegriasContenedor .alegria .alegriaFotoCont {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 10px;
+}
+.alegrias .alegriasContenedor .alegria .alegriaFotoCont .alegriaFoto {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.alegrias .alegriasContenedor .alegria:hover {
+    z-index: 10;
+}
+.alegrias .alegriasContenedor .alegria:hover .alegriaFotoCont .alegriaFoto {
+    animation-name: animalegriafoto;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+@keyframes animalegriafoto {
+    0%   {
+        transform: rotate(0deg);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0,0,0,.8)
+    }
+    25%   {
+        transform: rotate(10deg);
+    }
+    25%   {
+        transform: scale(1.2);
+        box-shadow: 0 0 50px 0 rgba(0,0,0,.8)
+    }
+    75%  {
+        transform: rotate(-10deg);
+    }
+    100%  {
+        transform: rotate(0deg);
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0,0,0,.8)
+    }
+}
+.alegrias .alegriasContenedor .alegria .alegriasTexto .firma {
+    margin-top: 10px;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.2rem;
+}
+/* Seccion alegrias HOME */
+/* Seccion alegrias ALEGRIAS */
+.paginaAlegrias .alegrias .titulo {
+    font-size: 2.5rem;
+}
+.paginaAlegrias .alegrias .volver {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    padding: 5px;
+    color: #681EA8;
+    transition: opacity .5s;
+    z-index: 1;
+}
+.paginaAlegrias .alegrias .volanta {
+    padding: 10px;
+    font-family: "Dancing Script";
+    text-align: center;
+    font-size: 1.5rem;
+}
+.paginaAlegrias .alegrias .volver:hover {
+    opacity: .5;
+}
+.paginaAlegrias .alegrias .alegriasContenedor .alegria {
+    display: block;
+}
+/* Seccion alegrias ALEGRIAS */
+/* Seccion armala HOME */
+.armala {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #681EA8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.armala .armalaTextos {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #F5CC14;
+    order: 2;
+}
+.armala .armalaTextos .volanta {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.armala .armalaTextos .titulo {
+        width: 100%;
+        font-size: 2.25rem;
+        font-family: "Dancing Script";
+        text-align: center;
+        margin-bottom: 20px;
+}
+.armala .armalaTextos .texto {
+    margin-bottom: 20px;
+}
+.armala .armalaTextos .botonVer {
+    width: 100%;
+    padding: 5px;
+    color: #FFF;
+}
+.armala .armalaTextos .botonVer:hover {
+    color: #681EA8;
+}
+.armala .armalaFotoCont {
+    position: relative;
+    width: 100%;
+    padding-bottom: 60%;
+    order: 1;
+    align-self: stretch;
+}
+.armala .armalaFotoCont .armalaFoto {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Seccion armala HOME */
+
+
 /* vista tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    /* BARRA DE NAVEGACION */
+    header {
+        height: 90px;
+    }
+    header .navbar .isologo {
+        height: 70px;
+        width: 270px;
+    }
+    header .navbar .isologo .iso {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+    }
+    header .navbar .isologo .logo {
+        font-family: "Dancing Script";
+        font-size: 50px;
+        line-height: 100%;
+        color: #681EA8;
+        padding: 10px 10px 10px 80px;
+    }
+    /* BARRA DE NAVEGACION */
+    /* MAIN */
+    main {
+        margin-top: 90px;
+    }
+    /* MAIN */
+    /* PROMOS */
+    .promos {
+        height: calc(100vh - 90px);
+    }
+    /* PROMOS */
+    /* Seccion tortas HOME */
+    .tortas .tortasContenedor {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+    }
+    .tortas .tortasContenedor .torta4 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+    .tortas .tortasContenedor .torta2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .tortas .tortasContenedor .torta3 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+    .tortas .tortasContenedor .torta1 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .tortas .tortasContenedor .torta5 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        display: none;
+    }
+    .tortas .tortasContenedor .torta6 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    /* Seccion tortas HOME */
+    /* Seccion tortas TORTAS */
     .paginaTortas .tortas .tortasContenedor {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(6, 200px);
@@ -848,9 +825,77 @@ main {
         grid-column: 3 / 4;
         grid-row: 6 / 7;
     }
+    /* Seccion tortas TORTAS */
 }
 /* vista monitores pequeños */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* BARRA DE NAVEGACION */
+    header {
+        height: 100px;
+    }
+    header .navbar .isologo {
+        height: 80px;
+        width: 310px;
+    }
+    header .navbar .isologo .iso {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+    }
+    header .navbar .isologo .logo {
+        font-family: "Dancing Script";
+        font-size: 60px;
+        line-height: 100%;
+        color: #681EA8;
+        padding: 10px 10px 10px 90px;
+    }
+    /* BARRA DE NAVEGACION */
+    /* MAIN */
+    main {
+        margin-top: 100px;
+    }
+    /* MAIN */
+    /* PROMOS */
+    .promos {
+        height: calc(100vh - 100px);
+        min-height: 400px;
+    }
+    /* PROMOS */
+    /* Seccion tortas HOME */
+    .tortas .titulo {
+        font-size: 2.625rem;
+    }
+    .tortas .tortasContenedor {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 250px);
+    }
+    .tortas .tortasContenedor .torta4 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+    .tortas .tortasContenedor .torta2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .tortas .tortasContenedor .torta3 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+    .tortas .tortasContenedor .torta1 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .tortas .tortasContenedor .torta5 {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        display: none;
+    }
+    .tortas .tortasContenedor .torta6 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    /* Seccion tortas HOME */
+    /* Seccion tortas TORTAS */
     .paginaTortas .tortas .titulo {
         font-size: 3rem;
     }
@@ -909,9 +954,158 @@ main {
         grid-row: 3 / 4;
         grid-column: 6 / 7;
     }
+    /* Seccion tortas TORTAS */
+    /* Seccion conoceme HOME */
+    .conoceme .conocemeTextos {
+        width: 50%;
+        order: 2;
+    }
+    .conoceme .conocemeFotoCont {
+        width: 50%;
+        padding-bottom: 30%;
+        order: 1;
+    }
+    .conoceme .conocemeTextos .volanta {
+        font-size: 1.3;
+    }
+    .conoceme .conocemeTextos .titulo {
+        font-size: 2.625rem;
+    }
+    /* Seccion conoceme HOME */
+    /* Seccion conoceme CONOCEME */
+    .paginaConoceme .conoceme.titulo {
+        font-size: 3rem;
+    }
+    .paginaConoceme .conoceme .subtitulo {
+        font-size: 1.65rem;
+}
+    .paginaConoceme .conoceme .volanta {
+        font-size: 1.3rem;
+    }
+    /* Seccion conoceme CONOCEME */
+    /* Seccion alegrias HOME */
+    .alegrias .alegriasContenedor .alegria {
+        width: calc(100% /3);
+    }
+    .alegrias .alegriasContenedor .alegria.alegria5 {
+        display: block;
+    }
+    /* Seccion alegrias HOME */
+    /* Seccion alegrias ALEGRIAS */
+    .paginaAlegrias .alegrias.titulo {
+        font-size: 3rem;
+    }
+    .paginaAlegrias .alegrias.volanta {
+        font-size: 2rem;
+    }
+    /* Seccion alegrias ALEGRIAS */
 }
 /* vista monitores grandes */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* BARRA DE NAVEGACION */
+    header {
+        height: 110px;
+        background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));;
+    }
+    header .navbar .isologo {
+        height: 90px;
+        width: 350px;
+    }
+    header .navbar .isologo .iso {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+    }
+    header .navbar .isologo .logo {
+        font-family: "Dancing Script";
+        font-size: 50px;
+        line-height: 100%;
+        color: #681EA8;
+        padding: 10px 10px 10px 80px;
+    }
+    header .navbar .isologo .logo {
+        font-family: "Dancing Script";
+        font-size: 70px;
+        line-height: 100%;
+        color: #681EA8;
+        padding: 10px 10px 10px 100px;
+    }
+    header .navbar .desplegar_menu {
+        display: none;
+    }
+    header .navbar .menu {
+        display: flex;
+        width: calc(100% - 350px);
+    }
+    /* BARRA DE NAVEGACION */
+    /* FOOTER */
+    footer .isologo {
+        height: 50px;
+        width: 220px;
+    }
+    footer .isologo .iso {
+        width: 50px;
+        height: 50px;
+    }
+    footer .isologo .logo {
+        font-size: 2.5rem;
+    }
+    footer .navbarRedes {
+        width: calc((100% - 220px)/2);
+        text-align: center; 
+        margin-top: 0px;  
+    }    
+    footer .navbarLegales {
+        width: calc((100% - 220px)/2);
+        text-align: center; 
+        margin-top: 0px;  
+    }
+    /* FOOTER */
+    /* MAIN */
+    main {
+        margin-top: 0px;
+    }
+    /* MAIN */
+    /* PROMOS */
+    .promos {
+        height: 50vh;
+        min-height: 400px;
+    }
+   /* PROMOS */
+    /* Seccion tortas HOME */
+    .tortas .titulo {
+        font-size: 3rem;
+    }
+    .tortas .tortasContenedor {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(1, 200px);
+    }
+    .tortas .tortasContenedor .torta4 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta3 {
+        grid-column: 4 / 6;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta1 {
+        grid-column: 6 / 7;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta5 {
+        grid-column: 8 / 9;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta6 {
+        grid-column: 7 / 8;
+        grid-row: 1 / 1;
+    }
+    /* Seccion tortas HOME */
+    /* Seccion tortas TORTAS */
     .paginaTortas .tortas {
         margin-top: 90px;
     }
@@ -973,10 +1167,172 @@ main {
         grid-row: 3 / 4;
         grid-column: 6 / 7;
     }
+    /* Seccion tortas TORTAS */
+    /* Seccion conoceme HOME */
+    .conoceme .conocemeTextos {
+        width: 50%;
+        order: 2;
+    }
+    .conoceme .conocemeFotoCont {
+        width: 50%;
+        padding-bottom: 30%;
+        order: 1;
+    }
+    .conoceme .conocemeTextos .volanta {
+        font-size: 1.4;
+    }
+    .conoceme .conocemeTextos .titulo {
+        font-size: 3rem;
+    }
+    /* Seccion conoceme HOME */
+    /* Seccion conoceme CONOCEME */
+    .paginaConoceme .conoceme {
+        margin-top: 90px;
+    }
+    .paginaConoceme .conoceme .titulo {
+        font-size: 3.2rem;
+    }
+    .paginaConoceme .conoceme .subtitulo {
+        font-size: 1.8rem;
+    }
+    .paginaConoceme .conoceme .volanta {
+        font-size: 1.5rem;
+    }
+    /* Seccion conoceme CONOCEME */
+    /* Seccion alegrias HOME */
+    .alegrias .alegriasContenedor .alegria {
+        width: calc(100% /4);
+    }
+    /* Seccion alegrias HOME */
+    /* Seccion alegrias ALEGRIAS */
+    .paginaAlegrias .alegrias {
+        margin-top: 90px;
+    }
+    .paginaAlegrias .alegrias .titulo {
+        font-size: 3.2rem;
+    }
+    .paginaAlegrias .alegrias .volanta {
+        font-size: 2.1rem;
+    }
+    /* Seccion alegrias ALEGRIAS */
+    /* Seccion armala HOME */
+    .armala .armalaTextos {
+        width: 50%;
+        order: 1;
+    }
+    .armala .armalaFotoCont {
+        width: 50%;
+        padding-bottom: 30%;
+        order: 2;
+    }
+    .armala .armalaTextos .volanta {
+        font-size: 1.4;
+    }
+    .armala .armalaTextos .titulo {
+        font-size: 3rem;
+    }
+    /* Seccion armala HOME */
 }
 /* vista monitores extragrandes */
 @media screen and (min-width: 1201px) {
-    .paginaTortas .tortas {
+    /* BARRA DE NAVEGACION */
+    header {
+        height: 120px;
+        background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));;
+    }
+    header .navbar .isologo {
+        height: 100px;
+        width: 400px;
+    }
+    header .navbar .isologo .iso {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+    header .navbar .isologo .logo {
+        font-family: "Dancing Script";
+        font-size: 80px;
+        line-height: 100%;
+        color: #681EA8;
+        padding: 10px 10px 10px 110px;
+    }
+    header .navbar .desplegar_menu {
+        display: none;
+    }
+     header .navbar .menu {
+        display: flex;
+        width: calc(100% - 400px);
+    }
+    /* BARRA DE NAVEGACION */
+    /* FOOTER */
+    footer .isologo {
+        height: 60px;
+        width: 280px;
+    }
+    footer .isologo .iso {
+        width: 60px;
+        height: 60px;
+    }
+    footer .isologo .logo {
+        font-size: 3.125rem;
+    }
+    footer .navbarRedes {
+        width: calc((100% - 280px)/2);
+        text-align: center; 
+        margin-top: 0px;  
+    }    
+    footer .navbarLegales {
+        width: calc((100% - 280px)/2);
+        text-align: center; 
+        margin-top: 0px;  
+    }
+    /* FOOTER */
+    /* MAIN */
+    main {
+        margin-top: 0px;
+    }
+    /* MAIN */
+    /* PROMOS */
+    .promos {
+        height: 50vh;
+        min-height: 400px;
+    }
+    /* PROMOS */
+    /* Seccion tortas HOME */
+    .tortas .titulo {
+        font-size: 3.375rem;
+    }
+    .tortas .tortasContenedor {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(1, 250px);
+    }
+    .tortas .tortasContenedor .torta4 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta3 {
+        grid-column: 4 / 6;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta1 {
+        grid-column: 6 / 7;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta5 {
+        grid-column: 8 / 9;
+        grid-row: 1 / 1;
+    }
+    .tortas .tortasContenedor .torta6 {
+        grid-column: 7 / 8;
+        grid-row: 1 / 1;
+    }
+    /* Seccion tortas HOME */
+     /* Seccion tortas TORTAS */
+     .paginaTortas .tortas {
         margin-top: 100px;
     }
     .paginaTortas .tortas .titulo {
@@ -1037,111 +1393,8 @@ main {
         grid-row: 3 / 4;
         grid-column: 6 / 7;
     }
-}
-
-
-
-
-
-
-
-/* Seccion conoceme HOME */
-/* vista celulares */
-.conoceme {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: #F5CC14;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.conoceme .conocemeTextos {
-    position: relative;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    order: 1;
-}
-.conoceme .conocemeTextos .volanta {
-    margin-bottom: 10px;
-    margin-top: 30px;
-    font-size: 1.2rem;
-}
-.conoceme .conocemeTextos .titulo {
-        width: 100%;
-        font-size: 2.25rem;
-        font-family: "Dancing Script";
-        text-align: center;
-        margin-bottom: 20px;
-}
-.conoceme .conocemeTextos .texto {
-    margin-bottom: 20px;
-}
-.conoceme .conocemeTextos .botonVer {
-    width: 100%;
-    padding: 5px;
-    color: #FFF;
-}
-.conoceme .conocemeTextos .botonVer:hover {
-    color: #681EA8;
-}
-.conoceme .conocemeFotoCont {
-    position: relative;
-    width: 100%;
-    padding-bottom: 60%;
-    align-self: stretch;
-    order: 2;
-}
-.conoceme .conocemeFotoCont .conocemeFoto {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .conoceme .conocemeTextos {
-        width: 50%;
-        order: 2;
-    }
-    .conoceme .conocemeFotoCont {
-        width: 50%;
-        padding-bottom: 30%;
-        order: 1;
-    }
-    .conoceme .conocemeTextos .volanta {
-        font-size: 1.3;
-    }
-    .conoceme .conocemeTextos .titulo {
-        font-size: 2.625rem;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .conoceme .conocemeTextos {
-        width: 50%;
-        order: 2;
-    }
-    .conoceme .conocemeFotoCont {
-        width: 50%;
-        padding-bottom: 30%;
-        order: 1;
-    }
-    .conoceme .conocemeTextos .volanta {
-        font-size: 1.4;
-    }
-    .conoceme .conocemeTextos .titulo {
-        font-size: 3rem;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
+    /* Seccion tortas TORTAS */
+    /* Seccion conoceme HOME */
     .conoceme .conocemeTextos {
         width: 50%;
         order: 2;
@@ -1157,89 +1410,8 @@ main {
     .conoceme .conocemeTextos .titulo {
         font-size: 3.375rem;
     }
-}
-/* Seccion conoceme CONOCEME */
-.paginaConoceme .conoceme {
-    background: none;
-}
-.paginaConoceme .conoceme .conocemeContenedor {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-.paginaConoceme .conoceme .conocemeContenedor.espejado .conocemeTextos {
-    order: 1;
-}
-.paginaConoceme .conoceme .conocemeContenedor.espejado .conocemeFotoCont {
-    order: 2;
-}
-.paginaConoceme .conoceme .titulo {
-    font-family: "Dancing Script";
-    font-size: 2.5rem;
-    text-align: center;
-}
-.paginaConoceme .conoceme .subtitulo {
-    font-family: "Dancing Script";
-    font-size: 1.5rem;
-    text-align: center;
-    padding: .5rem 0;
-}
-.paginaConoceme .conoceme .volver {
-    display: block;
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    padding: 5px;
-    color: #681EA8;
-    transition: opacity .5s;
-    z-index: 1;
-}
-.paginaConoceme .conoceme .volanta {
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: normal;
-}
-.paginaConoceme .conoceme .volver:hover {
-    opacity: .5;
-}
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .paginaConoceme .conoceme.titulo {
-        font-size: 3rem;
-    }
-    .paginaConoceme .conoceme .subtitulo {
-        font-size: 1.65rem;
-}
-    .paginaConoceme .conoceme .volanta {
-        font-size: 1.3rem;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .paginaConoceme .conoceme {
-        margin-top: 90px;
-    }
-    .paginaConoceme .conoceme .titulo {
-        font-size: 3.2rem;
-    }
-    .paginaConoceme .conoceme .subtitulo {
-        font-size: 1.8rem;
-    }
-    .paginaConoceme .conoceme .volanta {
-        font-size: 1.5rem;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
+    /* Seccion conoceme HOME */
+    /* Seccion conoceme CONOCEME */
     .paginaConoceme .conoceme {
         margin-top: 100px;
     }
@@ -1252,261 +1424,16 @@ main {
     .paginaConoceme .conoceme .volanta {
         font-size: 1.8rem;
     }
-}
-
-
-
-
-/* Seccion alegrias HOME */
-/* vista celulares */
-.alegrias {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: start;
-}
-.alegrias .titulo {
-    width: 100%;
-    padding: 10px;
-    font-size: 2.25rem;
-    font-family: "Dancing Script";
-    text-align: center;
-    margin-top: 30px;
-}
-.alegrias .alegriasContenedor {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: start;
-    padding: 5px;
-}
-.alegrias .alegriasContenedor .alegria {
-    position: relative;
-    width: calc(100% /2);
-    padding: 5px;
-    margin-bottom: 10px;
-}
-.alegrias .alegriasContenedor .alegria.alegria5 {
-    display: none;
-}
-.alegrias .alegriasContenedor .alegria .alegriaFotoCont {
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
-    margin-bottom: 10px;
-}
-.alegrias .alegriasContenedor .alegria .alegriaFotoCont .alegriaFoto {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.alegrias .alegriasContenedor .alegria .alegriasTexto .firma {
-    margin-top: 10px;
-    font-family: "Dancing Script";
-    font-weight: bold;
-    text-align: right;
-    font-size: 1.2rem;
-}
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .alegrias .alegriasContenedor .alegria {
-        width: calc(100% /3);
-    }
-    .alegrias .alegriasContenedor .alegria.alegria5 {
-        display: block;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .alegrias .alegriasContenedor .alegria {
-        width: calc(100% /4);
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
+    /* Seccion conoceme CONOCEME */
+    /* Seccion alegrias HOME */
     .alegrias .alegriasContenedor .alegria {
         width: calc(100% /5);
     }
     .alegrias .alegriasContenedor .alegria.alegria5 {
         display: block;
     }
-}
-
-/* Seccion armala HOME */
-/* vista celulares */
-.armala {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: #681EA8;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.armala .armalaTextos {
-    position: relative;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    color: #F5CC14;
-    order: 2;
-}
-.armala .armalaTextos .volanta {
-    margin-bottom: 10px;
-    margin-top: 30px;
-    font-size: 1.2rem;
-}
-.armala .armalaTextos .titulo {
-        width: 100%;
-        font-size: 2.25rem;
-        font-family: "Dancing Script";
-        text-align: center;
-        margin-bottom: 20px;
-}
-.armala .armalaTextos .texto {
-    margin-bottom: 20px;
-}
-.armala .armalaTextos .botonVer {
-    width: 100%;
-    padding: 5px;
-    color: #FFF;
-}
-.armala .armalaTextos .botonVer:hover {
-    color: #681EA8;
-}
-.armala .armalaFotoCont {
-    position: relative;
-    width: 100%;
-    padding-bottom: 60%;
-    order: 1;
-    align-self: stretch;
-}
-.armala .armalaFotoCont .armalaFoto {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .armala .armalaTextos {
-        width: 50%;
-        order: 1;
-    }
-    .armala .armalaFotoCont {
-        width: 50%;
-        padding-bottom: 30%;
-        order: 2;
-    }
-    .armala .armalaTextos .volanta {
-        font-size: 1.3;
-    }
-    .armala .armalaTextos .titulo {
-        font-size: 2.625rem;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .armala .armalaTextos {
-        width: 50%;
-        order: 1;
-    }
-    .armala .armalaFotoCont {
-        width: 50%;
-        padding-bottom: 30%;
-        order: 2;
-    }
-    .armala .armalaTextos .volanta {
-        font-size: 1.4;
-    }
-    .armala .armalaTextos .titulo {
-        font-size: 3rem;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-    .armala .armalaTextos {
-        width: 50%;
-        order: 1;
-    }
-    .armala .armalaFotoCont {
-        width: 50%;
-        padding-bottom: 30%;
-        order: 2;
-    }
-    .armala .armalaTextos .volanta {
-        font-size: 1.5;
-    }
-    .armala .armalaTextos .titulo {
-        font-size: 3.375rem;
-    }
-}
-/* Seccion alegrias ALEGRIAS */
-.paginaAlegrias .alegrias .titulo {
-    font-size: 2.5rem;
-}
-.paginaAlegrias .alegrias .volver {
-    display: block;
-    position: absolute;
-    top: 35px;
-    right: 10px;
-    padding: 5px;
-    color: #681EA8;
-    transition: opacity .5s;
-    z-index: 1;
-}
-.paginaAlegrias .alegrias .volanta {
-    padding: 10px;
-    font-family: "Dancing Script";
-    text-align: center;
-    font-size: 1.5rem;
-}
-.paginaAlegrias .alegrias .volver:hover {
-    opacity: .5;
-}
-.paginaAlegrias .alegrias .alegriasContenedor .alegria {
-    display: block;
-}
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .paginaAlegrias .alegrias.titulo {
-        font-size: 3rem;
-    }
-    .paginaAlegrias .alegrias.volanta {
-        font-size: 2rem;
-    }
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .paginaAlegrias .alegrias {
-        margin-top: 90px;
-    }
-    .paginaAlegrias .alegrias .titulo {
-        font-size: 3.2rem;
-    }
-    .paginaAlegrias .alegrias .volanta {
-        font-size: 2.1rem;
-    }
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
+    /* Seccion alegrias HOME */
+    /* Seccion alegrias ALEGRIAS */
     .paginaAlegrias .alegrias {
         margin-top: 100px;
     }
@@ -1516,380 +1443,22 @@ main {
     .paginaAlegrias .alegrias .volanta {
         font-size: 2.3rem;
     }
+    /* Seccion alegrias ALEGRIAS */
+    /* Seccion armala HOME */
+    .armala .armalaTextos {
+        width: 50%;
+        order: 1;
+    }
+    .armala .armalaFotoCont {
+        width: 50%;
+        padding-bottom: 30%;
+        order: 2;
+    }
+    .armala .armalaTextos .volanta {
+        font-size: 1.5;
+    }
+    .armala .armalaTextos .titulo {
+        font-size: 3.375rem;
+    }
+    /* Seccion armala HOME */
 }
-
-
-
-
-/* vista tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-/* vista monitores pequeños */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
-/* vista monitores grandes */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-}
-/* vista monitores extragrandes */
-@media screen and (min-width: 1201px) {
-}
-
-/*
-header .logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 220px;
-    text-align: center;
-    font-size: 48px;
-    padding: 34px 0 ;
-    font-family: 'Dancing Script', cursive;
-}
-header .navbar {
-    position: relative;
-    top: 0;
-    left: 0;
-    padding: 0 0 0 220px;
-    text-align: center;   
-}
-header .navbar ul {
-    position: relative;
-}
-header .navbar ul li {
-    display: inline-block;
-    width: 16%;
-}
-header .navbar ul li a {
-    display: block;
-    font-size: 16px;
-    color: #000;
-    padding: 40px 0;
-}
-main .promos {
-    position: relative;
-}
-main .promos .promoVentana {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow-x: auto;
-    overflow-y: hidden;
-}
-main .promos .promoVentana .promosContenedor {
-    position: relative;
-    top: 0;
-    right: 0;
-    height: 500px;
-    width: 300%;
-}
-main .promos .promoVentana .promosContenedor figure {
-    position: relative;
-    display: block;
-    float: left;
-    width: calc(100% / 3);
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-}
-main .promos .promoVentana .promosContenedor figure img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-main .promos .promoVentana .promosContenedor figure figcaption {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    font-size: 32px;
-}
-main .promos .promosTextos {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    text-align: center;
-}
-main .promos .promosTextos h2 {
-    font-size: 40px;
-    margin-top: 10px;
-}
-main .tortas {
-    position: relative;
-    margin: 20px 0;
-}
-main .tortas h2 {
-    position: relative;
-    padding: 10px;
-    background-color: #000;
-    color: #FFF;
-    font-size: 40px;
-}
-main .tortas .tortasContenedor {
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 100%;
-}
-main .tortas .tortasContenedor figure {
-    position: relative;
-    display: block;
-    float: left;
-    width: calc(100% / 6);
-    margin: 0;
-}
-main .tortas .tortasContenedor figure img {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-main .tortas .tortasContenedor figure figcaption {
-    width: 100%;
-    text-align: center;
-    font-size: 24;
-    font-style: italic;
-    margin-top: 10px;
-    padding-bottom: 20px;
-}
-main .conoceme {
-    position: relative;
-    padding: 20px 0;
-    clear: both;
-    border-top: 2px solid #000;
-}
-main .conoceme .conocemeTextos {
-    position: relative;
-    width: 50%;
-    padding: 20px;
-}
-main .conoceme .conocemeTextos h2 {
-    position: relative;
-    padding: 10px;
-    font-size: 40px;
-}
-main .conoceme .conocemeTextos h3 {
-    position: relative;
-    padding: 30px 10px;
-    font-size: 60px;
-    font-weight: normal;
-}
-main .conoceme .conocemeTextos p {
-    padding: 10px 10px;
-}
-main .conoceme .conocemeTextos a {
-    padding: 10px 10px;
-    color: #000;
-}
-main .conoceme figure {
-    position: absolute;
-    display: block;
-    top: 0px;
-    bottom: 0px;
-    right: 0;
-    width: 50%;
-    margin: 0;
-}
-main .conoceme figure img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-main .alegrias {
-    position: relative;
-    margin: 20px 0;
-}
-main .alegrias table {
-    width: 100%;
-    border: 0;
-    margin: 0;
-    border-collapse: collapse;
-}
-main .alegrias table tr.tablaTitular {
-    background-color: #000;
-}
-main .alegrias table tr th {
-    background-color: #000;
-    color: #FFF;
-    width: 20%;
-    border: 0;
-    margin: 0;
-}
-main .alegrias table tr th h2 {
-    position: relative;
-    padding: 10px;
-    background-color: #000;
-    color: #FFF;
-    font-size: 40px;
-    text-align-last: left;
-}
-main .alegrias table tr th a {
-    position: relative;
-    padding: 10px;
-    background-color: #000;
-    color: #FFF;
-    text-align-last: right;
-    width: 100%;
-}
-main .alegrias table tr td {
-    width: 20%;
-    position: relative;
-    padding: 5px;
-}
-main .alegrias table tr td figure {
-    position: relative;
-    display: block;
-    width: 100%;
-    margin: 0;
-}
-main .alegrias table tr td figure img {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-main .armala {
-    position: relative;
-    padding: 20px 0;
-    clear: both;
-    border-top: 2px solid #000;
-}
-main .armala .armalaTextos {
-    position: relative;
-    width: 50%;
-    margin: 0 0 0 50%;
-    padding: 20px;
-    text-align: right;
-}
-main .armala .armalaTextos h2 {
-    position: relative;
-    padding: 10px;
-    font-size: 40px;
-}
-main .armala .armalaTextos h3 {
-    position: relative;
-    padding: 30px 10px;
-    font-size: 60px;
-    font-weight: normal;
-}
-main .armala .armalaTextos p {
-    padding: 10px 10px;
-}
-main .armala .armalaTextos a {
-    padding: 10px 10px;
-    color: #000;
-}
-main .armala figure {
-    position: absolute;
-    display: block;
-    top: 0px;
-    bottom: 0px;
-    left: 0;
-    width: 50%;
-    margin: 0;
-}
-main .armala figure img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.paginaTortas .tortas {
-    position: relative;
-}
-.paginaTortas .tortas h1 {
-    padding: 120px 0 50px 0;
-    text-align: center;
-    font-size: 60px;
-}
-.paginaTortas .volver {
-    position: absolute;
-    right: 50px;
-    top: 150px;
-}
-.paginaTortas .tortas h2 {
-    text-align: center;
-    font-size: 30px;
-    padding: 0 50px 50px 50px;
-    background-color: transparent;
-    color: #000;
-}
-.paginaAlegrias .alegrias {
-    padding: 120px 0 0 0;
-}
-.paginaAlegrias .alegrias table tr.tablaTitular {
-    background-color: #FFF;
-}
-.paginaAlegrias .alegrias .tablaTitular th {
-    background-color: #FFF;
-    color: #000;
-}
-.paginaAlegrias .alegrias .tablaTitular h1 {
-    text-align: center;
-    font-size: 30px;
-    padding: 0 50px 50px 50px;
-    background-color: #FFF;
-    color: #000;
-}
-.paginaAlegrias .alegrias .tablaTitular a {
-    background-color: #FFF;
-    color: #000;
-}
-.paginaEscribime {
-    padding: 120px 50px 50px 50px;
-}
-.paginaEscribime h1 {
-    padding: 0px 0 50px 0;
-    text-align: center;
-    font-size: 60px;
-}
-.paginaEscribime fieldset {
-    display: block;
-    border: none;
-    padding: 10px;
-}
-.paginaEscribime fieldset legend {
-    padding-top: 30px;
-    font-size: 32px;
-}
-.paginaEscribime fieldset label {
-    display: block;
-    padding: 30px 10px 10px 10px;
-    font-size: 20px;
-}
-.paginaEscribime fieldset input {
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-    border: none;
-    border-bottom: 1px solid #000;
-    width: 100%;
-}
-.paginaEscribime fieldset select {
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-    border: none;
-    border-bottom: 1px solid #000;
-    width: 100%;
-}
-.paginaEscribime fieldset textarea {
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-    border: none;
-    border-bottom: 1px solid #000;
-    width: 100%;
-}
-.paginaEscribime fieldset button {
-    display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-    border: none;
-    width: 40%;
-    margin: 0 10px;
-}
-*/
