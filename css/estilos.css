@@ -461,18 +461,19 @@ main {
 }
 .alegrias .alegriasContenedor .alegria {
     position: relative;
-    width: calc(100% /2);
-    padding: 5px;
     margin-bottom: 10px;
 }
-.alegrias .alegriasContenedor .alegria.alegria5 {
+.alegrias .alegriasContenedor .alegria.alegria5,
+.alegrias .alegriasContenedor .alegria.alegria6
+ {
     display: none;
 }
 .alegrias .alegriasContenedor .alegria .alegriaFotoCont {
     position: relative;
-    width: 100%;
-    padding-bottom: 100%;
-    margin-bottom: 10px;
+    align-self: stretch;
+    padding: 0 0 60% 0;
+    margin: 0 0 10px 0;
+    order: 2;
 }
 .alegrias .alegriasContenedor .alegria .alegriaFotoCont .alegriaFoto {
     position: absolute;
@@ -559,8 +560,6 @@ main {
 }
 .armala .armalaTextos {
     position: relative;
-    width: 100%;
-    padding: 10px;
     text-align: center;
     color: #F5CC14;
     order: 2;
@@ -590,10 +589,10 @@ main {
 }
 .armala .armalaFotoCont {
     position: relative;
-    width: 100%;
-    padding-bottom: 60%;
-    order: 1;
     align-self: stretch;
+    padding: 0 0 60% 0;
+    margin: 0;
+    order: 1;
 }
 .armala .armalaFotoCont .armalaFoto {
     position: absolute;
@@ -879,11 +878,9 @@ main {
     }
     /* Seccion conoceme CONOCEME */
     /* Seccion alegrias HOME */
-    .alegrias .alegriasContenedor .alegria {
-        width: calc(100% /3);
-    }
-    .alegrias .alegriasContenedor .alegria.alegria5 {
-        display: block;
+    .alegrias .alegriasContenedor .alegria.alegria5,
+    .alegrias .alegriasContenedor .alegria.alegria6 {
+            display: block;
     }
     /* Seccion alegrias HOME */
     /* Seccion alegrias ALEGRIAS */
@@ -894,6 +891,21 @@ main {
         font-size: 2rem;
     }
     /* Seccion alegrias ALEGRIAS */
+    /* Seccion armala HOME */
+    .armala .armalaTextos {
+        order: 2;
+    }
+    .armala .armalaFotoCont {
+        padding-bottom: 30%;
+        order: 1;
+    }
+    .armala .armalaTextos .volanta {
+        font-size: 1.3;
+    }
+    .armala .armalaTextos .titulo {
+        font-size: 2.625rem;
+    }
+    /* Seccion armala HOME */
 }
 /* vista monitores grandes */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -1093,9 +1105,6 @@ main {
     }
     /* Seccion conoceme CONOCEME */
     /* Seccion alegrias HOME */
-    .alegrias .alegriasContenedor .alegria {
-        width: calc(100% /4);
-    }
     /* Seccion alegrias HOME */
     /* Seccion alegrias ALEGRIAS */
     .paginaAlegrias .alegrias {
@@ -1110,11 +1119,9 @@ main {
     /* Seccion alegrias ALEGRIAS */
     /* Seccion armala HOME */
     .armala .armalaTextos {
-        width: 50%;
         order: 1;
     }
     .armala .armalaFotoCont {
-        width: 50%;
         padding-bottom: 30%;
         order: 2;
     }
@@ -1317,11 +1324,9 @@ main {
     }
     /* Seccion conoceme CONOCEME */
     /* Seccion alegrias HOME */
-    .alegrias .alegriasContenedor .alegria {
-        width: calc(100% /5);
-    }
-    .alegrias .alegriasContenedor .alegria.alegria5 {
-        display: block;
+    .alegrias .alegriasContenedor .alegria.alegria5 ,
+    .alegrias .alegriasContenedor .alegria.alegria6 {
+            display: block;
     }
     /* Seccion alegrias HOME */
     /* Seccion alegrias ALEGRIAS */
@@ -1337,11 +1342,9 @@ main {
     /* Seccion alegrias ALEGRIAS */
     /* Seccion armala HOME */
     .armala .armalaTextos {
-        width: 50%;
         order: 1;
     }
     .armala .armalaFotoCont {
-        width: 50%;
         padding-bottom: 30%;
         order: 2;
     }
