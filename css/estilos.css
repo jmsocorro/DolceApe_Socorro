@@ -13,24 +13,24 @@
     box-sizing: border-box;
 }
 /* reset */
+/* clases generales */
+.object-fit-cover {
+    object-fit: cover;
+}
+/* clases generales */
+
 /* BARRA DE NAVEGACION */
 header {
     position: fixed;
     display: block;
     width: 100%;
     height: 80px;
-    padding: 10px;
+    padding: 0px;
     z-index: 1;
     background: #FFF;
     top: 0;
     z-index: 10;
 }
-header .navbar {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
  header .navbar .isologo {
     height: 60px;
     width: 220px;
@@ -50,25 +50,6 @@ header .navbar .isologo .logo {
     line-height: 100%;
     color: #681EA8;
     padding: 10px 10px 10px 70px;
-}
-header .navbar .desplegar_menu {
-    padding: 10px;
-}
-header .navbar .desplegar_menu:hover {
-    background-color: #F5CC14;
-}
-header .navbar .menu {
-    display: none;
-    justify-content: end;
-}
-header .navbar .menu .menu_item a {
-    position: relative;
-    color: #1E68A8;
-    transition: all .5s;
-    padding: 10px;
-}
-header .navbar .menu .menu_item a:hover {
-    background: #F5CC14;
 }
 /* BARRA DE NAVEGACION */
 /* FOOTER */
@@ -164,91 +145,21 @@ main {
     height: calc(100vh - 80px);
     overflow: hidden;
 }
-.promos .promoVentana .promosContenedor .promo {
+.promos .carousel .carousel-inner .carousel-item .carousel-caption {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    right: 0;
     left: 0;
-    right: 0;
-    opacity: 1;
-}
-.promos .promoVentana .promosContenedor .promo1 {
-    z-index: 3;
-    animation-name: promo1anim;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-}
-.promos .promoVentana .promosContenedor .promo2 {
-    z-index: 2;
-    animation-name: promo2anim;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-}
-.promos .promoVentana .promosContenedor .promo3 {
-    z-index: 1;
-    animation-name: promo3anim;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-}
-@keyframes promo1anim {
-    0%   {
-        opacity: 1;
-    }
-    33%  {
-        opacity: 1;
-    }
-    34%  {
-        opacity: 0;
-    }
-    99% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@keyframes promo2anim {
-    0%   {
-        opacity: 0;
-    }
-    33%  {
-        opacity: 0;
-    }
-    34%  {
-        opacity: 1;
-    }
-    66%  {
-        opacity: 1;
-    }
-    67%  {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-.promos .promoVentana .promosContenedor .promo .promo_imagen {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-}
-.promos .promoVentana .promosContenedor .promo .promo_texto {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    bottom: 1rem;
     padding: 20px;
     font-size: 2rem;
     z-index: 1;
     text-align: center;
+    display: block !important;
 }
-.promos .promoVentana .promosContenedor .promo .promo_texto h2 {
+.promos .carousel .carousel-inner .carousel-item .carousel-caption h2 {
     font-size: 2rem;
 }
-.promos .promoVentana .promosContenedor .promo .promo_texto h3 {
+.promos .carousel .carousel-inner .carousel-item .carousel-caption h3 {
     font-size: 1rem;
     font-weight: normal;
 }
@@ -256,8 +167,6 @@ main {
 /* Seccion tortas HOME */
 .tortas {
     position: relative;
-    width: 100%;
-    overflow: hidden;
     padding-bottom: 30px;
 }
 .tortas .titulo {
@@ -432,8 +341,6 @@ main {
 }
 .conoceme .conocemeTextos {
     position: relative;
-    width: 100%;
-    padding: 10px;
     text-align: center;
     order: 1;
 }
@@ -462,9 +369,9 @@ main {
 }
 .conoceme .conocemeFotoCont {
     position: relative;
-    width: 100%;
-    padding-bottom: 60%;
     align-self: stretch;
+    padding: 0 0 60% 0;
+    margin: 0;
     order: 2;
 }
 .conoceme .conocemeFotoCont .conocemeFoto {
@@ -947,11 +854,9 @@ main {
     /* Seccion tortas TORTAS */
     /* Seccion conoceme HOME */
     .conoceme .conocemeTextos {
-        width: 50%;
         order: 2;
     }
     .conoceme .conocemeFotoCont {
-        width: 50%;
         padding-bottom: 30%;
         order: 1;
     }
@@ -1160,11 +1065,9 @@ main {
     /* Seccion tortas TORTAS */
     /* Seccion conoceme HOME */
     .conoceme .conocemeTextos {
-        width: 50%;
         order: 2;
     }
     .conoceme .conocemeFotoCont {
-        width: 50%;
         padding-bottom: 30%;
         order: 1;
     }
@@ -1386,11 +1289,9 @@ main {
     /* Seccion tortas TORTAS */
     /* Seccion conoceme HOME */
     .conoceme .conocemeTextos {
-        width: 50%;
         order: 2;
     }
     .conoceme .conocemeFotoCont {
-        width: 50%;
         padding-bottom: 30%;
         order: 1;
     }
