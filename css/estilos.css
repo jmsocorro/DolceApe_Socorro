@@ -83,45 +83,39 @@ footer .isologo .logo {
     padding: 5px 10px;
 }
 footer .navbarRedes {
-    width: 100%;
     text-align: center; 
-    margin-top: 20px;  
-}
-footer .navbarRedes ul {
+    margin: auto;  
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-footer .navbarRedes ul li {
+footer .navbarRedes li {
     width: 50px;
 }
-footer .navbarRedes ul li a {
+footer .navbarRedes li a {
     display: block;
     font-size: 1.25rem;
     color: #FFF;
 }
-footer .navbarRedes ul li a img {
+footer .navbarRedes li a img {
     width: 30px;
     height: 30px;
 }
 footer .navbarLegales {
-    width: 100%;
     text-align: center; 
-    margin-top: 20px;  
-}
-footer .navbarLegales ul {
+    margin: auto;  
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
 }
-footer .navbarLegales ul li {
+footer .navbarLegales li {
     position: relative;
 }
-footer .navbarLegales ul li a {
+footer .navbarLegales li a {
     display: block;
     font-size: 1rem;
     color: #FFF;
@@ -958,14 +952,10 @@ main {
         font-size: 2.5rem;
     }
     footer .navbarRedes {
-        width: calc((100% - 220px)/2);
         text-align: center; 
-        margin-top: 0px;  
     }    
     footer .navbarLegales {
-        width: calc((100% - 220px)/2);
         text-align: center; 
-        margin-top: 0px;  
     }
     /* FOOTER */
     /* MAIN */
@@ -1177,14 +1167,10 @@ main {
         font-size: 3.125rem;
     }
     footer .navbarRedes {
-        width: calc((100% - 280px)/2);
         text-align: center; 
-        margin-top: 0px;  
     }    
     footer .navbarLegales {
-        width: calc((100% - 280px)/2);
         text-align: center; 
-        margin-top: 0px;  
     }
     /* FOOTER */
     /* MAIN */
