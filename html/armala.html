@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <div class="isologo">
@@ -98,5 +98,17 @@
         </ul>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            document.getElementById("navbar").classList.add("navcomprimido");
+          } else {
+            document.getElementById("navbar").classList.remove("navcomprimido");
+          }
+        }
+    </script>
 </body>
 </html>
