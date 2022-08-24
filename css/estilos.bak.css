@@ -1392,8 +1392,8 @@ main {
         grid-row: 1 / 1;
     }
     /* Seccion tortas HOME */
-     /* Seccion tortas TORTAS */
-     .paginaTortas .tortas {
+    /* Seccion tortas TORTAS */
+    .paginaTortas .tortas {
         margin-top: 100px;
     }
     .paginaTortas .tortas .titulo {
