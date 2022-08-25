@@ -1,6 +1,8 @@
 /*Colores*/
 /*Colores*/
 /* Fuentes */
+/* Fuentes */
+/* MIXINS */
 footer {
   position: relative;
   padding: 20px;
@@ -26,7 +28,8 @@ footer .isologo .iso .isoimg {
 footer .isologo .logo {
   font-family: "Dancing Script";
   font-size: 1.875rem;
-  line-height: 100%;
+  text-align: left;
+  line-height: 1;
   color: #681EA8;
   padding: 5px 10px;
 }

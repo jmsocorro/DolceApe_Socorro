@@ -8,7 +8,7 @@ header
     z-index: 1
     background: $blanco
     top: 0
-    z-index: 10
+    z-index: 1000
     .navbar
         background: $blanco
         transition: all .5s
@@ -26,9 +26,7 @@ header
                     height: 100%
             .logo 
                 transition: all .5s
-                font-family: "Dancing Script"
-                font-size: 40px
-                line-height: 100%
+                @include fuentes($font1, 40px, left, 1)
                 color: $color1
                 padding: 10px 10px 10px 70px
         &.navcomprimido

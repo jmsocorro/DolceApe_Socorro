@@ -2,6 +2,8 @@
 /*Colores*/
 /*Colores*/
 /* Fuentes */
+/* Fuentes */
+/* MIXINS */
 header {
   position: fixed;
   display: block;
@@ -11,7 +13,7 @@ header {
   z-index: 1;
   background: #FFF;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
 }
 header .navbar {
   background: #FFF;
@@ -36,7 +38,8 @@ header .navbar .isologo .logo {
   transition: all 0.5s;
   font-family: "Dancing Script";
   font-size: 40px;
-  line-height: 100%;
+  text-align: left;
+  line-height: 1;
   color: #681EA8;
   padding: 10px 10px 10px 70px;
 }
