@@ -18,14 +18,35 @@
     object-fit: cover
 /* clases generales */
 /* MAIN */
-/*    main
-        position: relative
-        display: block
-        width: 100%
-        min-height: calc(100vh - 80px)
-        margin-top: 80px
-        overflow: hidden
+main
+    position: relative
+    display: block
+    width: 100%
+    min-height: calc(100vh - 80px)
+    margin-top: 80px
+    overflow: hidden
 /* MAIN */
+/* vista tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) 
+    main
+        margin-top: 90px
+/* vista tablets */
+/* vista monitores pequeños */
+@media screen and (min-width: 769px) and (max-width: 1024px) 
+    main
+        margin-top: 100px
+/* vista monitores pequeños */
+
+/* vista monitores grandes */
+@media screen and (min-width: 1025px) and (max-width: 1200px) 
+    main
+        margin-top: 0px
+/* vista monitores grandes */
+/* vista monitores extragrandes */
+@media screen and (min-width: 1201px) 
+    main
+        margin-top: 0px
+/* vista monitores extragrandes */
 
 @import header
 @import footer
@@ -34,3 +55,4 @@
 @import conoceme
 @import alegrias
 @import armala
+@import escribime

@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Dolce Ape Tortas</title>
+    <meta name="keywords" content="torta, decoración, cumpleaños, bautismo, galletas, bodas, pastelería">
+    <meta name="description" content="Tortas, mesas dulces, la mejor partelería para acompañar los momentos felices de tu vida">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <div class="isologo">
@@ -283,6 +285,19 @@
     </footer>
     </div>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            document.getElementById("navbar").classList.add("navcomprimido");
+          } else {
+            document.getElementById("navbar").classList.remove("navcomprimido");
+          }
+        }
+    </script>
+        
 </body>
 
 </html>

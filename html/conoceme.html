@@ -8,18 +8,20 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Dolce Ape Tortas</title>
+    <title>Dolce Ape Tortas - Mi historia</title>
+    <meta name="keywords" content="torta, decoración, cumpleaños, bautismo, galletas, bodas, pastelería">
+    <meta name="description" content="Nunca es tarde para empezar cuando la pasión te impulsa">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <div class="isologo">
                         <div class="iso">
                             <img class="isoimg" src="../img/dolceapeico.svg" alt="bee">
                         </div>
-                        <h1 class="logo">Dolce Ape</h1>
+                        <div class="logo">Dolce Ape</div>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -58,32 +60,32 @@
                 <h1 class="volanta">
                     Conoceme
                 </h1>
-                <a class="volver" href="../">VOLVER</a>
+                <a class="volver btn btn-light btn-sm" href="../">VOLVER</a>
                 <h2 class="titulo">Mariana Gaudio</h2>
                 <div class="conocemeContenedor row">
-                    <div class="conocemeTextos col-12 col-md-6 p-5">
+                    <div class="conocemeTextos-izquierda col-12 col-md-6 p-5">
                         <h3 class="subtitulo">Asi empecé</h3>
                         <p class="texto"><strong>Lorem ipsum dolor sit amet consectetur</strong> , adipisicing elit. Incidunt quibusdam modi hic assumenda aliquid consequatur recusandae eum minima eius accusantium rem, cumque, quae ea vel, similique eveniet ipsam. Consectetur distinctio molestiae nulla eius excepturi quisquam consequuntur aut obcaecati voluptates illum harum corporis dolor consequatur, <em>quod voluptate atque perferendis</em> praesentium provident!</p>
                     </div>
-                    <figure class="conocemeFotoCont orden1 col-12 col-md-6">
+                    <figure class="conocemeFotoCont-derecha col-12 col-md-6">
                         <img class="conocemeFoto" src="../img/mariana2.jpg" alt="Mariana"></i>
                     </figure>
                 </div>
-                <div class="conocemeContenedor row espejado">
-                    <div class="conocemeTextos col-12 col-md-6 p-5">
+                <div class="conocemeContenedor row">
+                    <div class="conocemeTextos-derecha col-12 col-md-6 p-5">
                         <h3 class="subtitulo">Estudio y práctica</h3>
                         <p class="texto"><strong>Lorem ipsum dolor sit amet consectetur</strong> , adipisicing elit. Incidunt quibusdam modi hic assumenda aliquid consequatur recusandae eum minima eius accusantium rem, cumque, quae ea vel, similique eveniet ipsam. Consectetur distinctio molestiae nulla eius excepturi quisquam consequuntur aut obcaecati voluptates illum harum corporis dolor consequatur, <em>quod voluptate atque perferendis</em> praesentium provident!</p>
                     </div>
-                    <figure class="conocemeFotoCont col-12 col-md-6">
+                    <figure class="conocemeFotoCont-izquierda col-12 col-md-6">
                         <img class="conocemeFoto" src="../img/mariana3.jpg" alt="Mariana"></i>
                     </figure>
                 </div>
                 <div class="conocemeContenedor row">
-                    <div class="conocemeTextos col-12 col-md-6 p-5">
+                    <div class="conocemeTextos-izquierda col-12 col-md-6 p-5">
                         <h3 class="subtitulo">Pasión por la pastelería</h3>
                         <p class="texto"><strong>Lorem ipsum dolor sit amet consectetur</strong> , adipisicing elit. Incidunt quibusdam modi hic assumenda aliquid consequatur recusandae eum minima eius accusantium rem, cumque, quae ea vel, similique eveniet ipsam. Consectetur distinctio molestiae nulla eius excepturi quisquam consequuntur aut obcaecati voluptates illum harum corporis dolor consequatur, <em>quod voluptate atque perferendis</em> praesentium provident!</p>
                     </div>
-                    <figure class="conocemeFotoCont col-12 col-md-6">
+                    <figure class="conocemeFotoCont-derecha col-12 col-md-6">
                         <img class="conocemeFoto" src="../img/mariana.jpg" alt="Mariana"></i>
                     </figure>
                 </div>
@@ -127,5 +129,17 @@
         </ul>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            document.getElementById("navbar").classList.add("navcomprimido");
+          } else {
+            document.getElementById("navbar").classList.remove("navcomprimido");
+          }
+        }
+    </script>
 </body>
 </html>
