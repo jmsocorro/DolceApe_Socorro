@@ -492,15 +492,15 @@ footer .navbarLegales li a {
   transition: opacity 0.5s;
   z-index: 1;
 }
+.paginaTortas .tortas .volver:hover {
+  opacity: 0.5;
+}
 .paginaTortas .tortas .volanta {
   padding: 10px;
   font-family: "Dancing Script";
   font-size: 1.5rem;
   text-align: center;
   line-height: 1;
-}
-.paginaTortas .tortas .volanta:hover {
-  opacity: 0.5;
 }
 .paginaTortas .tortas .tortasContenedor {
   position: relative;
@@ -1419,6 +1419,7 @@ footer .navbarLegales li a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* vista monitores pequeños */
 }
 .armala .armalaTextos {
   position: relative;
@@ -1465,7 +1466,53 @@ footer .navbarLegales li a {
      object-fit: cover;
 }
 
-/* vista monitores pequeños */
+.paginaArmala .armala {
+  background: none;
+  display: block;
+}
+.paginaArmala .armala .titulo {
+  width: 100%;
+  padding: 10px;
+  font-family: "Dancing Script";
+  font-size: 2.25rem;
+  text-align: center;
+  line-height: 1;
+  margin-top: 30px;
+}
+.paginaArmala .armala .volver {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  padding: 5px;
+  color: #681EA8;
+  transition: opacity 0.5s;
+  z-index: 1;
+}
+.paginaArmala .armala .volver:hover {
+  opacity: 0.5;
+}
+.paginaArmala .armala .volanta {
+  padding: 10px;
+  font-family: "Dancing Script";
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1;
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion {
+  background: #F5CC14;
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked {
+  background: #2091F5;
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked:after {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #681EA8;
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .armala .armalaFotoCont {
     padding-bottom: 30%;
@@ -1479,6 +1526,12 @@ footer .navbarLegales li a {
   }
   .armala .armalaTextos .titulo {
     font-size: 2.625rem;
+  }
+  .paginaArmala .armala .titulo {
+    font-size: 3rem;
+  }
+  .paginaArmala .armala .volanta {
+    font-size: 2rem;
   }
 }
 /* vista monitores pequeños */
@@ -1497,6 +1550,15 @@ footer .navbarLegales li a {
   .armala .armalaTextos .titulo {
     font-size: 3rem;
   }
+  .paginaArmala .armala {
+    margin-top: 90px;
+  }
+  .paginaArmala .armala .titulo {
+    font-size: 3.2rem;
+  }
+  .paginaArmala .armala .volanta {
+    font-size: 2.1rem;
+  }
 }
 /* vista monitores grandes */
 /* vista monitores extragrandes */
@@ -1514,8 +1576,17 @@ footer .navbarLegales li a {
   .armala .armalaTextos .titulo {
     font-size: 3.375rem;
   }
+  .paginaArmala .armala {
+    margin-top: 100px;
+  }
+  .paginaArmala .armala .titulo {
+    font-size: 3.5rem;
+  }
+  .paginaArmala .armala .volanta {
+    font-size: 2.3rem;
+  }
+  /* vista monitores extragrandes */
 }
-/* vista monitores extragrandes */
 /*Colores*/
 /*Colores*/
 /* Fuentes */

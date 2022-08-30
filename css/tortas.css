@@ -101,15 +101,15 @@
   transition: opacity 0.5s;
   z-index: 1;
 }
+.paginaTortas .tortas .volver:hover {
+  opacity: 0.5;
+}
 .paginaTortas .tortas .volanta {
   padding: 10px;
   font-family: "Dancing Script";
   font-size: 1.5rem;
   text-align: center;
   line-height: 1;
-}
-.paginaTortas .tortas .volanta:hover {
-  opacity: 0.5;
 }
 .paginaTortas .tortas .tortasContenedor {
   position: relative;
