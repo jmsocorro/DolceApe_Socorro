@@ -1499,18 +1499,93 @@ footer .navbarLegales li a {
   text-align: center;
   line-height: 1;
 }
-.paginaArmala .armala .armalaContenedor .opciones .opcion {
-  background: #F5CC14;
+.paginaArmala .armala .armalaContenedor {
+  padding-top: 40vh;
 }
-.paginaArmala .armala .armalaContenedor .opciones .opcion:checked {
-  background: #2091F5;
-}
-.paginaArmala .armala .armalaContenedor .opciones .opcion:checked:after {
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked:before {
+  content: "";
   display: block;
   position: absolute;
-  width: 50px;
-  height: 50px;
-  background: #681EA8;
+  top: 20vh;
+  left: calc(50% + 10vh);
+  height: 20vh;
+  width: 20vh;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 110;
+  background-image: url(../img/porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40vh;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 100;
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20vh;
+  left: calc(50% + 10vh);
+  height: 20vh;
+  width: 20vh;
+  mix-blend-mode: multiply;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 110;
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-1:after {
+  background-image: url(../img/sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-2:after {
+  background-image: url(../img/sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-3:after {
+  background-image: url(../img/sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-4:after {
+  background-image: url(../img/sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-5:after {
+  background-image: url(../img/sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-6:after {
+  background-image: url(../img/sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.size.sz-7:after {
+  background-image: url(../img/sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-1:before {
+  background-image: url(../img/sa-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-2:before {
+  background-image: url(../img/sa-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-3:before {
+  background-image: url(../img/sa-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-4:before {
+  background-image: url(../img/sa-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-5:before {
+  background-image: url(../img/sa-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-6:before {
+  background-image: url(../img/sa-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-7:before {
+  background-image: url(../img/sa-7.svg);
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {

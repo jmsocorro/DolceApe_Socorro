@@ -73,17 +73,96 @@
             padding: 10px
             @include fuentes($font1, 1.5rem, center, 1)
         .armalaContenedor
+            padding-top: 40vh
             .opciones
                 .opcion
-                    background: $color3
                     &:checked
-                        background: $color2
-                        &:after
+                        &:before
+                            content: ''
                             display: block
                             position: absolute
-                            width: 50px
-                            height: 50px
-                            background: $color1
+                            top: 20vh
+                            left: calc( 50% + 10vh  )
+                            height: 20vh
+                            width: 20vh
+                            mix-blend-mode: multiply
+                            background-size: contain
+                            background-position: center
+                            background-repeat: no-repeat
+                            z-index: 110
+                            background-image: url(../img/porcion.svg)
+                        &+label
+                            &:after
+                                content: ''
+                                display: block
+                                position: absolute
+                                top: 0
+                                left: 0
+                                right: 0
+                                height: 40vh
+                                mix-blend-mode: multiply
+                                background-size: contain
+                                background-position: center
+                                background-repeat: no-repeat
+                                z-index: 100
+                            &:before
+                                content: ''
+                                display: block
+                                position: absolute
+                                top: 20vh
+                                left: calc( 50% + 10vh  )
+                                height: 20vh
+                                width: 20vh
+                                mix-blend-mode: multiply
+                                background-size: contain
+                                background-position: center
+                                background-repeat: no-repeat
+                                z-index: 110
+                            &.size
+                                &.sz-1
+                                    &:after
+                                        background-image: url(../img/sz-1.svg)
+                                &.sz-2
+                                    &:after
+                                        background-image: url(../img/sz-2.svg)
+                                &.sz-3
+                                    &:after
+                                        background-image: url(../img/sz-3.svg)
+                                &.sz-4
+                                    &:after
+                                        background-image: url(../img/sz-4.svg)
+                                &.sz-5
+                                    &:after
+                                        background-image: url(../img/sz-5.svg)
+                                &.sz-6
+                                    &:after
+                                        background-image: url(../img/sz-6.svg)
+                                &.sz-7
+                                    &:after
+                                        background-image: url(../img/sz-7.svg)
+                            &.sabor
+                                &.sa-1
+                                    &:before
+                                        background-image: url(../img/sa-1.svg)
+                                &.sa-2
+                                    &:before
+                                        background-image: url(../img/sa-2.svg)
+                                &.sa-3
+                                    &:before
+                                        background-image: url(../img/sa-3.svg)
+                                &.sa-4
+                                    &:before
+                                        background-image: url(../img/sa-4.svg)
+                                &.sa-5
+                                    &:before
+                                        background-image: url(../img/sa-5.svg)
+                                &.sa-6
+                                    &:before
+                                        background-image: url(../img/sa-6.svg)
+                                &.sa-7
+                                    &:before
+                                        background-image: url(../img/sa-7.svg)
+
 
 @media screen and (min-width: 769px) and (max-width: 1024px) 
     .armala 
