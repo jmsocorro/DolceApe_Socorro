@@ -58,7 +58,7 @@
     </header>
     <main>
         <section class="promos">
-            <div id="promocarousel" class="carousel slide h-100" data-bs-ride="carousel">
+            <div id="promocarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="10000">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#promocarousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Sorteo Instagram"></button>
@@ -72,26 +72,30 @@
                         <a href="https://www.instagram.com/dolceape.tortas/">
                             <img class="promo_imagen img-fluid d-block w-100 h-100 object-fit-cover" src="img/promo1.jpg" alt="Sorteo Instagram">
                         </a>
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h2>Seguinos en Instagram y ganate una torta</h2>
                             <h3>¿Cómo? Etiquetá a 3 amigos y Dale ❤️ a la foto</h3>
                         </div>
                     </div>
                     <div class="carousel-item h-100">
                         <a href="https://www.instagram.com/dolceape.tortas/">
-                            <img class="promo_imagen img-fluid d-block w-100 h-100 object-fit-cover" src="img/promo2.jpg" alt="Masterclass">
+                            <video class="promo_imagen img-fluid d-block w-100 h-100 object-fit-cover" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                <source src="./vid/masterclass2.mp4" type="video/mp4">
+                            </video>
                         </a>
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h2>Mira la masteclass</h2>
                             <h3>Cómo elaborarar una High Cake, preparación de Butter Cream y decoración con Drip Cake.
                             </h3>
                         </div>
                     </div>
                     <div class="carousel-item h-100">
-                        <a href="./html/armala.html">
-                            <img class="promo_imagen img-fluid d-block w-100 h-100 object-fit-cover" src="img/promo3.jpg" alt="Arma tu torta">
+                        <a href="./html/armala.htmlgit">
+                            <video class="promo_imagen img-fluid d-block w-100 h-100 object-fit-cover" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                                <source src="./vid/armatutorta.mp4" type="video/mp4">
+                            </video>
                         </a>
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h2>Arma tu torta</h2>
                             <h3>Deja que tu creatividad se apodere de los controles y creá la torta de tus sueños</h3>
                         </div>
@@ -108,6 +112,7 @@
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
+            <div class="scroll">SCROLL<i class="fa-solid fa-chevron-down"></i></div>
         </section>
         <section class="tortas container-fluid">
             <h2 class="titulo">
