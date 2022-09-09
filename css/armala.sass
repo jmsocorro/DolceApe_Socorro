@@ -76,6 +76,10 @@
             padding-top: 40vh
             .opciones
                 .opcion
+                    &[name="sizes"]
+                        &:checked
+                            &:before
+                                background-image: url(../img/porcion.svg)
                     &:checked
                         &:before
                             content: ''
@@ -90,7 +94,6 @@
                             background-position: center
                             background-repeat: no-repeat
                             z-index: 110
-                            background-image: url(../img/porcion.svg)
                         &+label
                             &:after
                                 content: ''
@@ -163,6 +166,43 @@
                                     &:before
                                         background-image: url(../img/sa-7.svg)
 
+                            $colores: (1,2,3,4,5,6,7)
+                            @each $color in $colores 
+                                &.color
+                                    &.co-#{$color}
+                                        &:before
+                                            background-image: url(../img/co-#{$color}-porcion.svg)
+                            $rellenos: (1,2,3,4)
+                            @each $color in $colores 
+                                &.relleno
+                                    &.re-#{$color}
+                                        &:before
+                                            background-image: url(../img/re-#{$color}-porcion.svg)
+                    $tamanos: (1,2,3,4,5,6,7)
+                    $colores: (1,2,3,4,5,6,7)
+                    $decoraciones: (1,2,3,4)
+                    @each $tamano in $tamanos 
+                        @each $color in $colores 
+                            &#sizes#{$tamano}
+                                &:checked
+                                    &~[name="color"]
+                                        &:checked
+                                            &+label
+                                                &.co-#{$color}
+                                                    &:after
+                                                        background-image: url(../img/co-#{$color}-sz-#{$tamano}.svg)
+                        @each $deco in $decoraciones 
+                            &#sizes#{$tamano}
+                                &:checked
+                                    &~[name="deco"]
+                                        &:checked
+                                            &+label
+                                                &.de-#{$deco}
+                                                    &:after
+                                                        background-image: url(../img/de-#{$deco}-sz-#{$tamano}.svg)
+                            
+
+/* vista monitores pequeños */
 @media screen and (min-width: 769px) and (max-width: 1024px) 
     .armala 
         .armalaFotoCont 
@@ -180,6 +220,32 @@
                 font-size: 3rem
             .volanta 
                 font-size: 2rem
+            .armalaContenedor
+                padding-top: 0
+                min-height: 50vw
+                .opciones
+                    .opcion
+                        &:checked
+                            &:before
+                                top: 25vw
+                                left: calc( 50% + 25vw  )
+                                height: 25vw
+                                width: 25vw
+                            &+label
+                                &:after
+                                    top: 0
+                                    left: 50%
+                                    right: 0
+                                    height: 50vw
+                                &:before
+                                    top: 25vw
+                                    left: calc( 50% + 25vw  )
+                                    height: 25vw
+                                    width: 25vw
+
+
+
+
 /* vista monitores pequeños */
 /* vista monitores grandes */
 @media screen and (min-width: 1025px) and (max-width: 1200px) 
@@ -200,6 +266,28 @@
                 font-size: 3.2rem
             .volanta 
                 font-size: 2.1rem
+            .armalaContenedor
+                padding-top: 0
+                min-height: 50vw
+                .opciones
+                    .opcion
+                        &:checked
+                            &:before
+                                top: 25vw
+                                left: calc( 50% + 25vw  )
+                                height: 25vw
+                                width: 25vw
+                            &+label
+                                &:after
+                                    top: 0
+                                    left: 50%
+                                    right: 0
+                                    height: 50vw
+                                &:before
+                                    top: 25vw
+                                    left: calc( 50% + 25vw  )
+                                    height: 25vw
+                                    width: 25vw
 /* vista monitores grandes */
 /* vista monitores extragrandes */
 @media screen and (min-width: 1201px) 
@@ -220,4 +308,26 @@
                 font-size: 3.5rem
             .volanta 
                 font-size: 2.3rem
-    /* vista monitores extragrandes */
+            .armalaContenedor
+                padding-top: 0
+                min-height: 50vw
+                .opciones
+                    .opcion
+                        &:checked
+                            &:before
+                                top: 25vw
+                                left: calc( (100% / 3) + 25vw  )
+                                height: 25vw
+                                width: 25vw
+                            &+label
+                                &:after
+                                    top: 0
+                                    left: calc(100% / 3)
+                                    right: 0
+                                    height: 50vw
+                                &:before
+                                    top: 25vw
+                                    left: calc( (100% / 3) + 25vw  )
+                                    height: 25vw
+                                    width: 25vw
+/* vista monitores extragrandes */

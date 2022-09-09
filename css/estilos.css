@@ -1525,6 +1525,9 @@ footer .navbarLegales li a {
 .paginaArmala .armala .armalaContenedor {
   padding-top: 40vh;
 }
+.paginaArmala .armala .armalaContenedor .opciones .opcion[name=sizes]:checked:before {
+  background-image: url(../img/porcion.svg);
+}
 .paginaArmala .armala .armalaContenedor .opciones .opcion:checked:before {
   content: "";
   display: block;
@@ -1538,7 +1541,6 @@ footer .navbarLegales li a {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 110;
-  background-image: url(../img/porcion.svg);
 }
 .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:after {
   content: "";
@@ -1610,7 +1612,281 @@ footer .navbarLegales li a {
 .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.sabor.sa-7:before {
   background-image: url(../img/sa-7.svg);
 }
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-1:before {
+  background-image: url(../img/co-1-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-2:before {
+  background-image: url(../img/co-2-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-3:before {
+  background-image: url(../img/co-3-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-4:before {
+  background-image: url(../img/co-4-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-5:before {
+  background-image: url(../img/co-5-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-6:before {
+  background-image: url(../img/co-6-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.color.co-7:before {
+  background-image: url(../img/co-7-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-1:before {
+  background-image: url(../img/re-1-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-2:before {
+  background-image: url(../img/re-2-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-3:before {
+  background-image: url(../img/re-3-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-4:before {
+  background-image: url(../img/re-4-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-5:before {
+  background-image: url(../img/re-5-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-6:before {
+  background-image: url(../img/re-6-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label.relleno.re-7:before {
+  background-image: url(../img/re-7-porcion.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes1:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-1.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes2:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-2.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes3:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-3.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes4:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-4.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes5:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-5.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes6:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-6.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-1:after {
+  background-image: url(../img/co-1-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-2:after {
+  background-image: url(../img/co-2-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-3:after {
+  background-image: url(../img/co-3-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-4:after {
+  background-image: url(../img/co-4-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-5:after {
+  background-image: url(../img/co-5-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-6:after {
+  background-image: url(../img/co-6-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=color]:checked + label.co-7:after {
+  background-image: url(../img/co-7-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=deco]:checked + label.de-1:after {
+  background-image: url(../img/de-1-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=deco]:checked + label.de-2:after {
+  background-image: url(../img/de-2-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=deco]:checked + label.de-3:after {
+  background-image: url(../img/de-3-sz-7.svg);
+}
+.paginaArmala .armala .armalaContenedor .opciones .opcion#sizes7:checked ~ [name=deco]:checked + label.de-4:after {
+  background-image: url(../img/de-4-sz-7.svg);
+}
 
+/* vista monitores pequeños */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .armala .armalaFotoCont {
     padding-bottom: 30%;
@@ -1630,6 +1906,28 @@ footer .navbarLegales li a {
   }
   .paginaArmala .armala .volanta {
     font-size: 2rem;
+  }
+  .paginaArmala .armala .armalaContenedor {
+    padding-top: 0;
+    min-height: 50vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked:before {
+    top: 25vw;
+    left: calc(50% + 25vw);
+    height: 25vw;
+    width: 25vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:after {
+    top: 0;
+    left: 50%;
+    right: 0;
+    height: 50vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:before {
+    top: 25vw;
+    left: calc(50% + 25vw);
+    height: 25vw;
+    width: 25vw;
   }
 }
 /* vista monitores pequeños */
@@ -1657,6 +1955,28 @@ footer .navbarLegales li a {
   .paginaArmala .armala .volanta {
     font-size: 2.1rem;
   }
+  .paginaArmala .armala .armalaContenedor {
+    padding-top: 0;
+    min-height: 50vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked:before {
+    top: 25vw;
+    left: calc(50% + 25vw);
+    height: 25vw;
+    width: 25vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:after {
+    top: 0;
+    left: 50%;
+    right: 0;
+    height: 50vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:before {
+    top: 25vw;
+    left: calc(50% + 25vw);
+    height: 25vw;
+    width: 25vw;
+  }
 }
 /* vista monitores grandes */
 /* vista monitores extragrandes */
@@ -1683,8 +2003,30 @@ footer .navbarLegales li a {
   .paginaArmala .armala .volanta {
     font-size: 2.3rem;
   }
-  /* vista monitores extragrandes */
+  .paginaArmala .armala .armalaContenedor {
+    padding-top: 0;
+    min-height: 50vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked:before {
+    top: 25vw;
+    left: calc(33.3333333333% + 25vw);
+    height: 25vw;
+    width: 25vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:after {
+    top: 0;
+    left: 33.3333333333%;
+    right: 0;
+    height: 50vw;
+  }
+  .paginaArmala .armala .armalaContenedor .opciones .opcion:checked + label:before {
+    top: 25vw;
+    left: calc(33.3333333333% + 25vw);
+    height: 25vw;
+    width: 25vw;
+  }
 }
+/* vista monitores extragrandes */
 /*Colores*/
 /*Colores*/
 /* Fuentes */
