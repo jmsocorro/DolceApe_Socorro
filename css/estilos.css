@@ -1133,6 +1133,9 @@ footer .navbarLegales li a {
 }
 .paginaConoceme .conoceme .conocemeContenedor .conocemeTextos-derecha {
   order: 2 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .paginaConoceme .conoceme .conocemeContenedor .conocemeFotoCont-izquierda {
   order: 1 !important;
